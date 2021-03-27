@@ -7,7 +7,7 @@ const Ferramenta = (props) => {
    
   return (
     <div>
-      Esta é a página da ferramenta com ID = {ferramentaId} 
+      Página da ferramenta com ID = {ferramentaId} 
     </div>
   )
 }
