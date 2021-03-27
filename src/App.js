@@ -8,7 +8,10 @@ function App() {
   return (
     <Switch>
       <Route exact path="/" render={(props) => <Ferramentas {...props}/>} />
-      <Route path="/:ferramentaId" render={(props) => <Ferramenta {...props}/>} />
+      <Route 
+        exact
+        path="/:ferramentaId" 
+        render={(props) => <Ferramenta {...props}/>} />
 
     </Switch>
   );
